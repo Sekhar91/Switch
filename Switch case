@@ -1,0 +1,33 @@
+#include<studio.h>
+Int main()
+{
+     Print(" pick the food item: \n1. Pizza, Price=239.
+            \n2. Burger, Price=129. \n3.pasta, Price=179.
+            \n4. French Fries, Price =99. \n5.sandwich, Price=149.");
+      Int choice=0;
+    scanf("%d",&choice);
+
+    Switch(choice)
+{
+    case 1: 
+           print("you picked pizza, price=239");
+            break;
+    case 2:
+           print("you picked Burger, Price=129");
+           break;
+    case 3: 
+           print("you picked pasta, Price=179");
+           break;
+    case 4:
+           print("you picked French Fries, Price=99");
+           break;
+    case 5:
+           print("you picked sandwich, Price=149");
+           break;
+    default:
+           print("Invalid choice");
+ 
+ }
+
+
+}
